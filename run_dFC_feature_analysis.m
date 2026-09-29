@@ -55,7 +55,7 @@ function run_dFC_feature_analysis(cfg)
             data3 = feature_bad{fre}(:, fea);
 
             [significant_value1, meanmedian_value1, effect_table1] = ...
-                ANOVA_effect_size_new(data1, data2, data3);
+                ANOVA_effect_size(data1, data2, data3);
             close all;
 
             if size(significant_value1, 2) > 3
