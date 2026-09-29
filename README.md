@@ -15,7 +15,9 @@ Run the following commands in MATLAB:
 matlab
 
 cfg = config_analysis();
+
 run_dFC_preprocessing(cfg);
+
 run_dFC_feature_analysis(cfg);
 
 The first script computes dynamic wPLI matrices for each subject and saves them
