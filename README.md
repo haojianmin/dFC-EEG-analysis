@@ -2,20 +2,6 @@
 
 This repository contains the MATLAB code for dynamic functional connectivity (dFC) feature extraction and statistical analysis used in the paper.
 
-## Repository Structure
-dFC-EEG-analysis/
-├── README.md
-├── config_analysis.m
-├── run_dFC_preprocessing.m
-├── run_dFC_feature_analysis.m
-├── extract_dFC_features.m
-├── utils/
-│ ├── conn_wPLI_hao.m
-│ ├── ANOVA_effect_size_new.m
-│ └── eegfilt.m
-├── data/
-│ └── README.md
-
 ## System Requirements
 
 - MATLAB R2021b or later
