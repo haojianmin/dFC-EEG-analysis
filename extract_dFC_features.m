@@ -2,7 +2,7 @@ function features = extract_dFC_features(wpli_mats, nClusters)
 % EXTRACT_DFC_FEATURES extracts four dynamic functional connectivity features from the dynamic wPLI matrix.
 %
 % Input:
-%   wpli_mats - A 19×19×nWindows wPLI matrix, with the third dimension representing the time window.
+%   wpli_mats - A channels×channels×nWindows wPLI matrix, with the third dimension representing the time window.
 %   nClusters - Optional. 
 %
 % Output：
