@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23853191.svg)](https://doi.org/10.5281/zenodo.23853191)
 ## dFC-EEG-analysis
 
 This repository contains the MATLAB code for dynamic functional connectivity (dFC) feature extraction and statistical analysis used in the paper.
@@ -35,7 +36,7 @@ Code Availability
 
 The custom MATLAB code used to compute dynamic wPLI features and perform
 statistical analyses is available at Zenodo with the DOI:
-10.5281/zenodo.XXXXXXX (to be replaced after archiving).
+10.5281/zenodo.23853191.
 
 The repository contains all scripts, a README with execution instructions,
 and a configuration file. Third-party functions (eegfilt, mafdr, pdist)
